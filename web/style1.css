@@ -1,0 +1,15 @@
+/* Estilo base para pantallas grandes */
+.rectangulo {
+    width: 300px; /* ancho fijo para pantallas grandes */
+    height: 50px;
+    background-color: pink;
+    border-bottom: 2px solid red;
+    margin: 20px auto;
+  }
+  
+  /* Para pantallas con ancho máximo 480px (celulares) */
+  @media (max-width: 480px) {
+    .rectangulo {
+      width: 100%; /* ocupa todo el ancho en móvil */
+    }
+  }
